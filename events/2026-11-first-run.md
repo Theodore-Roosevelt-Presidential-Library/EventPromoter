@@ -50,10 +50,10 @@ All times Mountain unless noted.
 | 2026-11-04 | Roundup | ND Living email | ✅ Sent | Matt approved. December and January events. |
 | 2026-11-04 | Roundup | Glendive Chamber email | ✅ Sent | Matt approved. Includes America the Beautiful. |
 | 2026-11-04 | Roundup | InForum, KFYR, KQCD, KUMV email | ⏸️ Blocked | InForum address unverified; no station addresses on file. Needs Matt. |
-| 2026-11-04 | Midwinter Table, Elkhorn Evenings | Visit Dickinson | ⏳ Prefilled | Both forms filled with images. Matt ticks the reCAPTCHA and submits. |
+| 2026-11-04 | Midwinter Table, Elkhorn Evenings | Visit Dickinson | ✅ Submitted | Matt solved the reCAPTCHA; thank-you page seen for both. Images attached. Elkhorn dated Dec 10, Dec 17 in description. Moderated. |
 | 2026-11-04 | All | Yelp | ⏸️ Blocked | Yelp for Business not signed in. Flow still undocumented. |
 
-**Totals:** 24 placements across 6 channels, plus the corrected Facebook series.
+**Totals:** 26 placements across 7 channels, plus the corrected Facebook series.
 
 ## Open items
 
@@ -64,7 +64,6 @@ All times Mountain unless noted.
 - [ ] Prairie Public Kennerly listing keeps the old "60 Years" title
 - [ ] GBP images: manual, all posts
 - [ ] ND Tourism photos: manual, events 15722-15726
-- [ ] Visit Dickinson: Matt to submit Midwinter Table, Elkhorn Evenings
 - [ ] Yelp: sign in, then document the flow
 - [ ] Email: verify InForum, find KFYR, KQCD and KUMV contacts
 - [ ] Prairie Public and Watford City list views were only checked on the first page for existing America the Beautiful listings

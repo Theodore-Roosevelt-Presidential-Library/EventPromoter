@@ -39,8 +39,8 @@ for Medora.
   exhibitions, conventions and festivals only.
 - **Phone is required.**
 - ⚠️ **The visible reCAPTCHA is for a person.** Claude never completes it. Fill the whole form
-  (one tab per event), confirm the values, then ask the operator to tick the box and click
-  **Submit** in each tab. It expires if it's solved early, so it goes last.
+  (one tab per event), confirm the values, then ask the operator to tick the box in each tab.
+  Claude can click **Submit** once the box is ticked, and a thank-you page confirms it. It expires if it's solved early, so it goes last.
 - The form is ASP.NET with long `ctl00` names. Set fields by position with `javascript_tool`. The
   state select needs its option found by text (`ND`). Set the image with `file_upload` on the
   file input; the 1200×628 covers are accepted.
