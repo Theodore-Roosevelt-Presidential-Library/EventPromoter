@@ -79,7 +79,7 @@ Legend: **Instant** = live within minutes · **Moderated** = human review, allow
 - Moderated. Travelers already planning a Dickinson-area trip.
 - ⚠️ **Criteria exclude lectures and seminars** — they rejected the WHCA panels and Bleyer talk.
   Submit exhibitions, conventions and festivals only.
-- Requires a phone number. reCAPTCHA — **click it last, immediately before submit**, or it expires.
+- Requires a phone number. Claude fills the form; the operator ticks the reCAPTCHA and submits, last, or it expires.
 
 ### Watford City Events (McKenzie County)
 - `https://www.watfordcityevents.com/all/Calendar/List`

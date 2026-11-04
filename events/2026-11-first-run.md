@@ -24,7 +24,8 @@ All times Mountain unless noted.
 
 | Date | Event | Channel | Status | ID / notes |
 |---|---|---|---|---|
-| 2026-11-04 | America the Beautiful | Facebook | ⏸️ Blocked | 1889288632478415 predates this run. Shows $7.35/$5.25, omits evening shows, says the film arrives the day after Nov 11. Needs Matt's go-ahead to edit. |
+| 2026-11-04 | America the Beautiful (afternoons) | Facebook | ✅ Corrected | 1889288632478415 predates this run. Matt approved edit: $7/$5, release line removed, evening shows in text. Saving recreated occurrence IDs; Nov 12 fell from 12 responses to 1. |
+| 2026-11-04 | America the Beautiful (evenings) | Facebook | ✅ Published | 947633758227834, custom dates Nov 11, 14, 20 · cover set |
 | 2026-11-04 | America the Beautiful | Google Business Profile | ✅ Posted | TRPL · 📷 no image |
 | 2026-11-04 | America the Beautiful | ND Tourism | ✅ Created | ID 15723, 15 dated showings, pending review |
 | 2026-11-04 | America the Beautiful | Prairie Public | ✅ Submitted | Dated Nov 11, all shows in description |
@@ -49,14 +50,13 @@ All times Mountain unless noted.
 | 2026-11-04 | Roundup | ND Living email | ✅ Sent | Matt approved. December and January events. |
 | 2026-11-04 | Roundup | Glendive Chamber email | ✅ Sent | Matt approved. Includes America the Beautiful. |
 | 2026-11-04 | Roundup | InForum, KFYR, KQCD, KUMV email | ⏸️ Blocked | InForum address unverified; no station addresses on file. Needs Matt. |
-| 2026-11-04 | Midwinter Table, Elkhorn Evenings | Visit Dickinson | ⏸️ Blocked | Visible reCAPTCHA. Matt submits. |
+| 2026-11-04 | Midwinter Table, Elkhorn Evenings | Visit Dickinson | ⏳ Prefilled | Both forms filled with images. Matt ticks the reCAPTCHA and submits. |
 | 2026-11-04 | All | Yelp | ⏸️ Blocked | Yelp for Business not signed in. Flow still undocumented. |
 
-**Totals:** 24 placements across 6 channels, plus the existing Facebook listing.
+**Totals:** 24 placements across 6 channels, plus the corrected Facebook series.
 
 ## Open items
 
-- [ ] Facebook 1889288632478415: correct the price, add evening shows, fix the release line
 - [ ] Site: America the Beautiful page shows two price sets and says "day after its national release" despite a Nov 11 show
 - [ ] Site: Elkhorn Evenings body says 5 p.m.; should read 4 p.m.
 - [ ] Site: Midwinter Table feed says 18+, page says 21+; page still says general sale "opens" Oct 30
@@ -64,7 +64,7 @@ All times Mountain unless noted.
 - [ ] Prairie Public Kennerly listing keeps the old "60 Years" title
 - [ ] GBP images: manual, all posts
 - [ ] ND Tourism photos: manual, events 15722-15726
-- [ ] Visit Dickinson: Midwinter Table, Elkhorn Evenings
+- [ ] Visit Dickinson: Matt to submit Midwinter Table, Elkhorn Evenings
 - [ ] Yelp: sign in, then document the flow
 - [ ] Email: verify InForum, find KFYR, KQCD and KUMV contacts
 - [ ] Prairie Public and Watford City list views were only checked on the first page for existing America the Beautiful listings

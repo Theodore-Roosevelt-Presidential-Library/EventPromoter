@@ -23,14 +23,14 @@ that have corrupted data on past runs. Seven events went in cleanly this way in 
 
 | Field | How |
 |---|---|
-| **Address / city / zip / Publish-under** | Click the **Pick** dropdown option containing `3410 Chateau Road`. It auto-fills all four. **This is the fix for the masked-zip bug** — typing the zip produces `_____-5864`. Never type it. |
+| **Address / city / zip / Publish-under** | Click the **Pick** dropdown option containing `3410 Chateau Road`. It auto-fills all four. Use a real click, since a scripted one may not fill them. **This is the fix for the masked-zip bug** — typing the zip produces `_____-5864`. Never type it. |
 | **Date** | `$(dateInput).data('daterangepicker').setStartDate(moment('MM/DD/YYYY','MM/DD/YYYY'))` then `setEndDate(...)`, then `.trigger('change')` |
 | **Hours** | Uncheck **All Day** first (it's the first unnamed checkbox), then `$(input).timepicker('setTime','3:00 PM')` |
 | **Commit the date** | Click **Add Date**, wait ~2s, confirm the row appears in the table |
 | **Phone** | `$(ph).inputmask('remove')` **first**, then set `(701) 892-6070` directly |
 | **Description** | wysihtml5 editor — set the `textarea[name=description]` value **and** write `iframe.wysihtml5-sandbox`'s `body.innerHTML` |
 | **Categories** | `input[name="categories[]"][value="<id>"]` then `.click()` |
-| **Rates** | Fill the Name + Rate inputs, then click **Add Rate**. Rate is numeric only — no `$`. |
+| **Rates** | Fill the Name + Rate inputs, then click **Add Rate**. Rate is numeric only — no `$`, written like `7.00`. With several rates, target the last `js-rate-value` input. |
 
 ### ⚠️ Two traps that fail silently
 
