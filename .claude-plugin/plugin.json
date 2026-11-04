@@ -1,0 +1,16 @@
+{
+  "name": "event-promoter",
+  "version": "0.1.0",
+  "description": "Finds events on trlibrary.com and gets the word out across the free regional channels the Theodore Roosevelt Presidential Library uses — Facebook, Google Business Profile, ND Tourism, regional calendars and newsroom email.",
+  "author": {
+    "name": "Theodore Roosevelt Presidential Library"
+  },
+  "homepage": "https://www.trlibrary.com",
+  "keywords": [
+    "events",
+    "promotion",
+    "trpl",
+    "calendar",
+    "marketing"
+  ]
+}

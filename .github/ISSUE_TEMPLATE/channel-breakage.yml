@@ -1,0 +1,85 @@
+name: Channel breakage
+description: A promotion channel behaved differently than the skill expects
+title: "[channel] short symptom"
+labels: ["channel-breakage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        File this when a publishing step fails or behaves unexpectedly, so the skill can be
+        fixed instead of the next run rediscovering the same thing.
+
+        **Search open issues first** — if this is already filed, add a comment there instead.
+
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Channel
+      options:
+        - Facebook
+        - Google Business Profile
+        - ND Tourism Partner Portal
+        - Prairie Public
+        - Visit Dickinson
+        - Watford City
+        - Bismarck-Mandan CVB
+        - Dakota Media Access
+        - evvnt / Bismarck Tribune
+        - Yelp
+        - Email outreach
+        - trlibrary.com feeds
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: skill
+    attributes:
+      label: Skill file
+      description: Which skill documents this step?
+      placeholder: skills/publish-facebook/SKILL.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What the skill says should happen
+      description: Quote the relevant instruction.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+      description: Exact error text, the selector or field that failed, the URL. Verbatim beats paraphrase.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - "Blocking — the channel cannot be used at all"
+        - "Degraded — works, but needs a manual step or workaround"
+        - "Cosmetic — wrong but harmless"
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround used, if any
+      description: If you got it published anyway, how? This is the most valuable field — it becomes the fix.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Run context
+      placeholder: |
+        Date:
+        Event(s) affected:
+        Browser/tool used:
+        Did it work in a previous run?
