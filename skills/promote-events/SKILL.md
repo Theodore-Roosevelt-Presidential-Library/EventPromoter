@@ -52,6 +52,12 @@ between cycles.
 Use **`route-event-channels`**. Geography, lead time, event type, artwork. Produces a
 per-event channel list with the reason and any blockers.
 
+### Take it as far as you can, then hand off
+
+When a step needs a person (a CAPTCHA, a sign-in, a final send), do everything up to it first: fill
+the form, attach the art, verify the values. Then ask for just that one action, name the tab, and
+carry on with other work. Don't mark a whole channel as blocked and leave it for the operator.
+
 ### 4. Ask, if the shape is genuinely open
 
 Two decisions are worth one short question rather than a guess:

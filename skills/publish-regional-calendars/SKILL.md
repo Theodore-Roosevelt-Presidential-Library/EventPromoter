@@ -20,8 +20,8 @@ Standard values for all of them:
 
 `https://news.prairiepublic.org/community-calendar`
 
-Statewide public radio and TV. **The cleanest form of the lot** — no login, no CAPTCHA
-friction, no known bugs. If you only have time for one regional calendar, make it this one.
+Statewide public radio and TV. **The cleanest form of the lot** — no login and no visible
+CAPTCHA (an invisible reCAPTCHA runs on submit), no known bugs. If you only have time for one regional calendar, make it this one.
 
 One submission per event. Long exhibitions can go in as recurring daily; multi-day
 conventions as a daily run across the dates.
@@ -38,8 +38,13 @@ for Medora.
 - ⚠️ **Criteria exclude lectures and seminars.** Talks and panels get rejected. Submit
   exhibitions, conventions and festivals only.
 - **Phone is required.**
-- ⚠️ **Click the reCAPTCHA last, immediately before submitting.** It expires if you solve it
-  and then keep filling fields.
+- ⚠️ **The visible reCAPTCHA is for a person.** Claude never completes it. Fill the whole form
+  (one tab per event), confirm the values, then ask the operator to tick the box and click
+  **Submit** in each tab. It expires if it's solved early, so it goes last.
+- The form is ASP.NET with long `ctl00` names. Set fields by position with `javascript_tool`. The
+  state select needs its option found by text (`ND`). Set the image with `file_upload` on the
+  file input; the 1200×628 covers are accepted.
+- One date range per form. For separate dates, enter the first and name them all in the description.
 - Watch that the subject/title text lands in the title field and not the To field.
 
 ---

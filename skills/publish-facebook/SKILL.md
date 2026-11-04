@@ -97,6 +97,24 @@ Safest: navigate directly to the next URL rather than hunting for the X.
 `https://www.facebook.com/events/edit/<event-id>/` — but you must already be browsing as
 the page, or you'll get "This page isn't available right now."
 
+⚠️ **Saving an edit to a recurring series recreates its occurrences.** On the 2026-11 America
+the Beautiful series, the save gave dates new IDs (old links redirect) and Nov 12 fell from 12
+responses to 1. Before editing a series that has responses, tell the operator the responses may
+be lost and let them choose. If only the dates need adding, a separate event avoids this.
+
+## Custom dates
+
+Under **Repeat event → Frequency → Custom**, a calendar takes any set of dates. Click the dates,
+**Add time** on the first, tick **Add this time to all dates**, then **Add** and **Done**. Use this
+for irregular runs such as Nov 11, 14 and 20.
+
+## Form positions shift
+
+The dialog's layout changes with window size, so never reuse coordinates between sessions. Take a
+screenshot before clicking, and check after each step: start date, end date, end time and
+in-person can all silently keep their old values. A start date change does not move the end date.
+Confirm the zone by searching `Denver` even when the field already reads MST.
+
 ## Published event IDs
 
 Keep these in the run log so later cycles can edit rather than duplicate. Format:
