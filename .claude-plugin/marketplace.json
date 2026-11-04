@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Event promotion tooling for the Theodore Roosevelt Presidential Library.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
       "name": "event-promoter",
       "source": "./",
       "description": "Finds events on trlibrary.com and gets the word out across the free regional channels the Library uses — Facebook, Google Business Profile, ND Tourism, regional calendars and newsroom email.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Theodore Roosevelt Presidential Library"
       },

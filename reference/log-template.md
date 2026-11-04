@@ -60,7 +60,7 @@ Use these consistently — the next run greps for them.
 
 These are the steps that quietly don't happen unless written down:
 
-- **Unsent Mail.app drafts** — the single most common silent failure
+- **Unsent Outlook drafts** — the single most common silent failure
 - **GBP images** — Claude cannot upload them; native OS picker
 - **ND Tourism photos** — manual, per event
 - **Logins that expired** — especially ND Tourism, which expires most runs

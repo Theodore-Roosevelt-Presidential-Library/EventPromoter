@@ -3,7 +3,7 @@
 Six outlets that take event listings by email. One message each covers a whole cycle, so
 this is the best reach-per-minute of any channel — roughly fifteen minutes for all six.
 
-Draft in **Mail.app under matt@trlibrary.com**. Include a friendly note with genuine
+Draft in **Outlook on the web under matt@trlibrary.com**. Include a friendly note with genuine
 gratitude; these are small newsrooms doing the Library a favor by running free listings.
 
 | Outlet | Address | Reach | Notes |
@@ -53,5 +53,5 @@ art or an interview.
 
 ## Drafting mechanics
 
-Use the macOS computer-use tools to create drafts in Mail.app — do **not** send. Matt reviews
-and sends. Creating a draft is not a send, but the line matters: never click Send.
+Use the Chrome browser tools to create drafts in Outlook on the web. Send only when Matt says
+to, after seeing the drafts. Steps are in `skills/draft-outreach-emails`.
