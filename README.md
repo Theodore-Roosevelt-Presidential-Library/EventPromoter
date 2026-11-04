@@ -33,7 +33,7 @@ The orchestrator is **`promote-events`**; the rest are pulled in as needed.
 | `publish-google-business` | GBP event posts across the Library's profiles |
 | `publish-nd-tourism` | Partner Portal listings, driven through the form's own APIs |
 | `publish-regional-calendars` | Prairie Public, Visit Dickinson, Watford City, Bismarck-Mandan, Dakota Media Access, evvnt, Yelp |
-| `draft-outreach-emails` | Newsroom roundups drafted in Mail.app — never sent |
+| `draft-outreach-emails` | Newsroom roundups drafted in Outlook on the web; sent only on Matt's word |
 | `prepare-event-artwork` | Recovers full-res art from the site; sizes per channel |
 | `report-channel-issue` | Files a GitHub issue when a channel breaks — dedupe-checked |
 

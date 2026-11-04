@@ -1,6 +1,6 @@
 ---
 name: draft-outreach-emails
-description: Draft the event roundup emails to regional newsrooms and calendar editors in Mail.app under matt@trlibrary.com. Use when a promotion run reaches the email step, or when asked to email the stations, send listings to ND Living or InForum, or do the newsroom outreach. Drafts only — never sends.
+description: Draft the event roundup emails to regional newsrooms and calendar editors in Outlook on the web under matt@trlibrary.com. Use when a promotion run reaches the email step, or when asked to email the stations, send listings to ND Living or InForum, or do the newsroom outreach. Sends only when Matt says to.
 ---
 
 # Newsroom and calendar email
@@ -10,12 +10,25 @@ channel — ND Living alone reaches roughly 200,000 households.
 
 Outlet list and addresses: `${CLAUDE_PLUGIN_ROOT}/reference/email-outlets.md`
 
-## ⚠️ Draft, never send
+## ⚠️ Draft first, send only on Matt's word
 
-Create drafts in **Mail.app under the matt@trlibrary.com account** using the macOS
-computer-use tools. Matt reviews and sends.
+Create drafts in **Outlook on the web under matt@trlibrary.com**, using the Chrome browser
+tools. Matt reviews them.
 
-Creating a draft is not sending, but the boundary is firm: **do not click Send.**
+Do not click **Send** until Matt tells you to send, in this conversation, after seeing the
+drafts. If he does, send only the drafts he approved and confirm them in Sent Items.
+
+### Outlook mechanics
+
+- **New message:** `https://outlook.office.com/mail/deeplink/compose`. Confirm the From line
+  reads `matt@trlibrary.com`.
+- Click **To**, type the address followed by `;`, then click the subject and the body in
+  turn. Take a fresh screenshot before each click, since the layout shifts.
+- **Save:** `cmd+s`, then wait for "Draft saved." A "Leave site?" block means the save has
+  not finished. Open the next message in a new tab rather than forcing the navigation.
+- **Review:** `https://outlook.office.com/mail/drafts`.
+- ⚠️ **Sending from the Drafts folder opens the next draft in the reading pane.** That draft
+  is someone else's work in progress. Don't touch it. Go straight to **Sent Items**.
 
 ## Deadlines
 
@@ -58,7 +71,7 @@ confirmed.
 ## Logging
 
 Record that drafts were created and which outlets they target — then flag clearly in the
-run summary that **they are sitting unsent in Mail** and need Matt. Drafts that nobody sends
+run summary that **they are sitting unsent in Outlook** and need Matt. Drafts that nobody sends
 are the most common silent failure in this whole pipeline.
 
 ---

@@ -119,7 +119,7 @@ If invoked unattended (a scheduled task rather than a person asking):
 
 - **Never enter passwords.** ND Tourism in particular expires between runs; ask Matt to sign
   in and wait.
-- **Never click Send** on an email. Drafts only.
+- **Never click Send** on an email unless Matt says to after seeing the draft.
 - **Never mass-invite** Facebook followers. Close that dialog.
 - **Never publish a historical claim you could not verify.** Flag it instead.
 
